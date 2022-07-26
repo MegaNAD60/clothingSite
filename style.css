@@ -1,0 +1,214 @@
+#home{
+	width:100%;
+	margin-top:50px;
+	padding:40px;
+	display:inline-block;
+	overflow:hidden;
+	text-align:center;
+	color:white;
+	background-image:linear-gradient(rgba(0,0,0,0.527),rgba(0,0,0,0.5)),url('portfolio/portfolio-10.jpg');
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:1200px 650px;
+}
+#home a{
+	color:white;
+	text-decoration:none;
+}
+#btn{
+	font-size:2em;
+	margin-top:40px;
+	color:white;
+	background:teal;
+	border: 2px solid teal;
+}
+#btn:hover{
+	border-color: #fff;
+	color:white;
+	background: rgba(255, 255, 255, 0.1);
+}
+#about{
+	margin-top:10px;
+	padding-top:50px;
+}
+#about-h1{
+	color:teal;
+	margin-bottom:10px;
+}
+img{
+	width:80%;
+	height:400px;
+	margin:auto;
+}
+#about h3{
+	color:teal;
+	text-align:center;
+}
+#about li{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+}
+#about i{
+	color:teal;
+	font-size:1.3rem;
+	margin-right:10px;
+}
+.footer{
+	width:100%;
+	margin:auto;
+	color:white;
+	margin-top:10px;
+	background:#040b14;
+	padding-left:20px;
+}
+.footer h1{
+	color:white;
+}
+.footer h2{
+	color:white;
+}
+.footer p{
+	color:lightgrey;
+	}
+.footer li{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+}
+.footer i{
+	color:teal;
+	font-size:1.3rem;
+	margin-right:10px;
+}
+.footer a{
+	color:lightgrey;
+}
+.footer .fa{
+	color:white;	
+	font-size:25px;
+	margin:auto;
+	text-align:center;  
+} 
+.fa-facebook{
+	border-color: #fff;
+	color:white;
+	width:30px;
+	height:30px;
+	border-radius:10px;
+} 
+.fa-twitter{
+	border-color: #fff;
+	color:black;
+	width:30px;
+	border-radius:10px;
+	height:30px;
+} 
+.fa-instagram{
+	border-color: #fff;
+	color:black;
+	width:30px;
+	border-radius:10px;
+	height:30px;
+} 
+.fa-whatsapp{
+	border-color: #fff;
+	color:black;
+	width:30px;
+	border-radius:10px;
+	height:30px;
+} 
+.fa-telegram{
+	border-color: #fff;
+	color:black;
+	width:30px;
+	border-radius:10px;
+	height:30px;
+}
+.fa-facebook:hover{
+	border-color: #fff;
+	color:white;
+	text-decoration:none;  
+}
+.fa-telegram:hover{
+	border-color: #fff;
+	color:white;
+	text-decoration:none;  
+}
+.fa-instagram:hover{
+	border-color: #fff;
+	color:white;
+	text-decoration:none;  
+}
+.fa-whatsapp:hover{
+	border-color: #fff;
+	color:white;
+	text-decoration:none;  
+}
+.fa-twitter:hover{
+	border-color: #fff;
+	color:white;
+	text-decoration:none;  
+}
+.copyright{
+	width:100%;
+	margin:auto;
+	padding-top:20px;
+	padding-bottom:20px;
+	color:white;
+	background:black;
+}
+/*----------navigation bar styling----------*/
+.navbar-brand{
+	font-weight:700;
+	color:white;
+}
+.navbar-custom{
+	color:white;
+	background-color:teal;
+}
+.navbar li{
+	margin:0px 10px;
+}
+.nav-link{
+	color:white;
+}
+.nav-link:hover{
+	color:white;
+	background-color:#4c9e9e;
+}
+.btn-custom{
+	color:white;
+	border-color:white;
+}
+.btn-custom:hover{
+	color:white;
+	border-color:#ff4a17;
+	background-color:#ff4a17;
+}
+
+/*----------icons styling----------*/
+ .fas{
+	color:white;	
+	font-size:40px;
+	margin:auto;
+	text-align:center;  
+} 
+ .fab{
+	color:white;	
+	font-size:25px;
+	margin:auto;
+	margin-bottom:20px;
+	text-align:center;  
+} 
+.fa-bars{
+	font-size:30px;
+}
+.fa-link{
+	font-size:20px;
+	margin-right:10px;
+}
+.fa-plus{
+	font-size:20px;
+	margin-right:10px;
+}
