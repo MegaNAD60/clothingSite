@@ -7,13 +7,13 @@
 	<link href="style.css" rel="stylesheet">
 	<script src="myScript.js"></script>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    <title>NAD Clothing Site</title>
+    <title>Contact!</title>
   </head>
 
-<body>
+<body id="contact-body">
 
 <nav class="navbar navbar-expand-md navbar-custom fixed-top">
-  <li class="navbar-brand">NAD</li>
+  <a class="navbar-brand" href="#">NAD</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
     <i class="fas fa-bars"></i>
   </button>
@@ -23,13 +23,13 @@
         <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="about.html">About</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="portfolio.html">Portfolio</a>
       </li>
 		<li class="nav-item">
-			<a class="nav-link" href="contact.html">Contact</a>
+			<a class="nav-link" href="#">Contact</a>
 		</li>
     </ul>
     <form class="form-inline mt-2 mt-md-0">
@@ -39,55 +39,67 @@
   </div>
 </nav>
 
-<div class="container-fluid">
-	<div id="about-page">
-		<center><h1 id="about-page-h1">ABOUT US</h1></center>
-		<div class="row">
-			<div class="col-md-6">
-				<center><img src="portfolio/portfolio-6.jpg" id="about-img-1"></img></center>
-			</div>
-			<div class="col-md-6">
-			<h3><b>About NAD Wears</b></h3>
-				<p>NAD wears is an international entity that is saddle with our customers cloths. We offer best quality various cloths to our clients all over 
-				the world, which includes Casual wears, Cooperate wears, Sport wears, Beach wears, Night gowns, Shoes amongest many others. Our services are 
-				international, which means we delivers your goods at your door step.</p>
-				<li><i class="fas fa-check-double"></i>We offer services to our clients all over the world</li><br>
-				<li><i class="fas fa-check-double"></i>We offer different kinds of wears</li><br>
-				<li><i class="fas fa-check-double"></i>We offer best quality wears and products</li><br>
-				<li><i class="fas fa-check-double"></i>Our wears are affordable and easily order and purchase</li><br>
-				<li><i class="fas fa-check-double"></i>You can contact us at anytime as we offer 24 hrs services</li><br>
+<div id="contact">
+	<h1>CONTACT</h1>
+	<div class="row">
+		<div class="col-md-6">
+			<fieldset id="info-box-fieldset">
+				<div class="location-box">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="info-box">
+								<i class="fas fa-map-marker"></i>   
+								<h3>Address</h3>
+								<p>Abuja, Nigeria</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="email-box">
+							<div class="info-box mt-4">
+								<i class="fas fa-envelope"></i>   
+								<h3>Email</h3>
+								<p>nehemiahdauda60@gmail.com</p>
+								<p>daudaagbu@gmail.com</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="phone-box">
+							<div class="info-box mt-4">
+								<i class="fas fa-phone"></i>   
+								<h3>Call</h3>
+								<p>+234 8123 5953 48<br>+234 8135 3073 09</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</fieldset>
+		</div>
+		<div class="col-md-6">
+			<div class="message-box">
+				<form name="myform">
+					<center><h2>SEND A MESSAGE</h2></center>
+					<fieldset id="message-box-fieldset">
+						<div class="input-box">
+							<input type="text" name="name" id="message-box-name" placeholder="Full Name" minlength="3" class="text-input" required/>
+						</div>
+						<div class="input-box">
+							<input type="email" name="email" id="message-box-email" placeholder="E-mail" class="email-input" required />
+						</div>
+						<div class="input-box">
+							<input type="text" name="phone" id="message-box-subject" placeholder="Subject" class="phone-no-input" required />
+						</div>
+						<div class="input-box">
+							<textarea type="text" name="text" id="message-box-textarea" placeholder="Your Message" minlength="10" required ></textarea>
+						</div>
+						<button type="submit" name="button" id="message-box-button" onclick="sendmessage()">Send</button>
+					</fieldset>
+				</form>
 			</div>
 		</div>
-
-		<section id="mission-vision-section">
-			<div class="row">
-				<div class="col-md-6">
-					<div class="main">
-						<center>
-							<img id="about-img" src="portfolio/portfolio-4.jpg" class="image">
-							<div class="about-overlay">
-								<h3>Our Mission</h3>
-							</div>
-							</img>
-						</center>
-					</div>
-					<p>Our mission is to provide great quality standard of wears to our clients and customers all over the world. We provide quality products at 
-					affordable prices and deliver our products, your purchase, at your door step.</p>.
-				</div>
-				<div class="col-md-6">
-					<div class="main">
-						<center>
-							<img src="portfolio/portfolio-8.jpg" id="about-img"></img>
-							<div class="about-overlay">
-								<h3>Our Vision</h3>
-							</div>
-						</center>
-					</div>
-					<p>We aspire to be one of the top brand universally. Thus, the need to satisfy our customers and show our concerns to them. We offer services 24
-					hrs to be able to booast trade and promote our brand to be able to achieve our goals.</p>
-				</div>
-			</div>
-		</section>
 	</div>
 </div>
 
@@ -109,15 +121,16 @@
 		<div class="col-md-4"><h2>Useful Links</h2>
 			<li><i class="fas fa-check-double"></i><a href="index.html">Home</a></li><br>
 			<li><i class="fas fa-check-double"></i><a href="#">About Us</a></li><br>
+			<li><i class="fas fa-check-double"></i><a href="index.html">Services</a></li><br>
 			<li><i class="fas fa-check-double"></i><a href="portfolio.html">Portfolio</a></li><br>
 			<li><i class="fas fa-check-double"></i><a href="contact.html">Contact</a></li><br>
 		</div>
 		<div class="col-md-4"><h2>Our Services</h2>
-			<li><i class="fas fa-check-double"></i>Fashion Design</li><br>
-			<li><i class="fas fa-check-double"></i>Fashion Sales</li><br>
-			<li><i class="fas fa-check-double"></i>Training</li><br>
-			<li><i class="fas fa-check-double"></i>Home Delivery</li><br>
-			<li><i class="fas fa-check-double"></i>International Delivery</li><br>
+			<li><i class="fas fa-check-double"></i>Marketing</li><br>
+			<li><i class="fas fa-check-double"></i>Web development</li><br>
+			<li><i class="fas fa-check-double"></i>Online sale</li><br>
+			<li><i class="fas fa-check-double"></i>Free wifi</li><br>
+			<li><i class="fas fa-check-double"></i>Data science</li><br>
 		</div>
 	</div>
 </div>

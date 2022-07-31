@@ -4,13 +4,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-	<link href="style.css" rel="stylesheet">
-	<script src="myScript.js"></script>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<link href="style.css" rel="stylesheet">
+	<script src="script.js"></script>
     <title>NAD Clothing Site</title>
   </head>
 
 <body>
+	<button onclick="topFunction()" id="back-to-top"><i>Top</i></button>
 
 <nav class="navbar navbar-expand-md navbar-custom fixed-top">
   <li class="navbar-brand">NAD</li>
@@ -29,7 +30,7 @@
         <a class="nav-link" href="portfolio.html">Portfolio</a>
       </li>
 		<li class="nav-item">
-			<a class="nav-link" href="#">Contact</a>
+			<a class="nav-link" href="contact.html">Contact</a>
 		</li>
     </ul>
     <form class="form-inline mt-2 mt-md-0">
@@ -43,17 +44,18 @@
 	<div id="home">
 		<h1>WELCOME TO NAD CLOTHING SITE</h1>
 		<p>We provide the best and suited cloths to your satisfaction</p>
+		<p id="p2">Get your best Casual wears, Cooperate wears, Sport wears, Night gowns, shoes and lot more.</p>
 		<button id="btn"><a href="#about">KNOW MORE</a></button>
 	</div>
 	
 	<div id="about">
-		<h1 id="about-h1">KNOW US MORE</h1>
+		<h1 id="about-h1">KNOW ABOUT US</h1>
 		<div class="row">
 			<div class="col-md-6">
-				<center><img src="portfolio/portfolio-6.jpg"></img></center>
+				<center><img src="portfolio/portfolio-6.jpg" id="home-img-1"></img></center>
 			</div>
 			<div class="col-md-6">
-			<h3><b>About NAD wears</b></h3>
+			<h3><b>About NAD Wears</b></h3>
 				<p>NAD wears is an international entity that is saddle with our customers cloths. We offer best quality various cloths to our clients all over 
 				the world, which includes Casual wears, Cooperate wears, Sport wears, Beach wears, Night gowns, Shoes amongest many others. Our services are 
 				international, which means we delivers your goods at your door step.</p>
@@ -66,15 +68,95 @@
 		</div>
 	</div>
 	
-</div>
+	<div id="portfolio">
+		<div class="portfolio-content">
+			<h3 id="portfolio-h3">PORTFOLIO</h2>
+			<h2 id="portfolio-h2">CHECK OUR PORTFOLIOS</h1>
+			<div class="row">
+				<div class="col-md-4">
+					<center>
+						<img id="home-img-2" src="portfolio/portfolio-4.jpg" class="image">
+						<h3>Product Thirtheen</h3>
+						<h5>Price: N1000</h5>
+						</img>
+					</center>
+				</div>
+				<div class="col-md-4">
+					<center>
+						<img id="home-img-3" src="portfolio/portfolio-5.jpg" class="image">
+						<h3>Product Thirtheen</h3>
+						<h5>Price: N1000</h5>
+						</img>
+					</center>
+				</div>
+				<div class="col-md-4">
+					<center>
+						<img id="home-img-4" src="portfolio/portfolio-7.jpg" class="image">
+						<h3>Product Thirtheen</h3>
+						<h5>Price: N1000</h5>
+						</img>
+					</center>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="testimonials">
+		<center><h1 id="testimonials-h1">Testimonials</h1>
+		<p id="testimonials-p">We have amazing clients and customers all over the world. These are what some of our customers and clients have to say about our services.</P></center>
+		  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+			  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			  <li data-target="#myCarousel" data-slide-to="1"></li>
+			  <li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+			  <div class="carousel-item active">
+				<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label=" :  " preserveAspectRatio="xMidYMid slice" focusable="false"><title> </title><rect width="100%" height="100%" fill="#040b14"/><text x="50%" y="50%" fill="#777" dy=".3em"> </text></svg>
+				<div class="container">
+				  <div class="carousel-caption">
+					<img id="testimonials-img" src="portfolio/testimonials-2.jpg" class="image">
+					<h1>Sara Wilsson.</h1>
+					<p>NAD Clothings offers a very good services in terms of wears. I am so delighted to know them and patronise them. They have now become my
+					number one cloth shopping store.</p>
+				  </div>
+				</div>
+			  </div>
 
+			  <div class="carousel-item">
+				<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label=" :  " preserveAspectRatio="xMidYMid slice" focusable="false"><title> </title><rect width="100%" height="100%" fill="#040b14"/><text x="50%" y="50%" fill="#777" dy=".3em"> </text></svg>
+				<div class="container">
+				  <div class="carousel-caption">
+					<img id="testimonials-img" src="portfolio/testimonials-4.jpg" class="image">
+					<h1>Matt Brandon.</h1>
+					<p>Knowing NAD Cloth Store is really amazing to me. I have shop with them for quit a number of time and I must confess, they are very good
+					in their services and i acknowledge them for that. Kudos to NAD Cloth Store.</p>
+				  </div>
+				</div>
+			  </div>
+
+			  <div class="carousel-item">
+				<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label=" :  " preserveAspectRatio="xMidYMid slice" focusable="false"><title> </title><rect width="100%" height="100%" fill="#040b14"/><text x="50%" y="50%" fill="#777" dy=".3em"> </text></svg>
+				<div class="container">
+				  <div class="carousel-caption">
+					<img id="testimonials-img" src="portfolio/testimonials-5.jpg" class="image">
+					<h1>John Larson.</h1>
+					<p>Started shopping with NAD Clothing Stores about some years back and they offer me amazing services. If I am to rate, then I give them five
+					star cos I am so in love with their mode of operation, and quality products and services they render to we their customers.</p>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	</div>
 <div class="footer">
 	<div class="row">
 		<div class="col-md-4">
 			<h1><b>NAD</b></h1>
 			<p>Gwagwalada, <br/> Abuja, Nigeria</p>
-			<p><b>Phone:</b>+234 81 353 073 09<br>
-			<b>Email:</b>nehemiahdauda60@gmail.com</p><br/>
+			<p><b>Phone:</b> +234 81 353 073 09<br>
+			<b>Email:</b> nehemiahdauda60@gmail.com</p><br/>
 			<div class="header-social-links">
 				<i><a href="https://www.facebook.com/equity.justice.501" class="fab fa-facebook"></a></i>   
 				<a href="https://www.instagram.com/nehemiahagbu" class="fab fa-instagram"></a>   
@@ -85,17 +167,16 @@
 		</div>
 		<div class="col-md-4"><h2>Useful Links</h2>
 			<li><i class="fas fa-check-double"></i><a href="#">Home</a></li><br>
-			<li><i class="fas fa-check-double"></i><a href="index.html">About Us</a></li><br>
-			<li><i class="fas fa-check-double"></i><a href="index.html">Services</a></li><br>
+			<li><i class="fas fa-check-double"></i><a href="about.html">About Us</a></li><br>
 			<li><i class="fas fa-check-double"></i><a href="portfolio.html">Portfolio</a></li><br>
 			<li><i class="fas fa-check-double"></i><a href="contact.html">Contact</a></li><br>
 		</div>
 		<div class="col-md-4"><h2>Our Services</h2>
-			<li><i class="fas fa-check-double"></i>Marketing</li><br>
-			<li><i class="fas fa-check-double"></i>Web development</li><br>
-			<li><i class="fas fa-check-double"></i>Online sale</li><br>
-			<li><i class="fas fa-check-double"></i>Free wifi</li><br>
-			<li><i class="fas fa-check-double"></i>Data science</li><br>
+			<li><i class="fas fa-check-double"></i>Fashion Design</li><br>
+			<li><i class="fas fa-check-double"></i>Fashion Sales</li><br>
+			<li><i class="fas fa-check-double"></i>Training</li><br>
+			<li><i class="fas fa-check-double"></i>Home Delivery</li><br>
+			<li><i class="fas fa-check-double"></i>International Delivery</li><br>
 		</div>
 	</div>
 </div>
