@@ -50,19 +50,19 @@ a{
 	background-size:1200px 650px;
 }
 #home h1{
-	font-size:2em;
+	font-size:1.7em;
 	font-weight:600;
 }
 #home p{
-	font-size:1.3em;
+	font-size:1.1em;
 	font-weight:500;
 }
 #home #p2{
-	font-size:1.3em;
+	font-size:1em;
 	font-weight:300;
 }
 #btn{
-	font-size:2rem;
+	font-size:1.5rem;
 	margin-top:40px;
 	color:white;
 	background-color:teal;
@@ -83,7 +83,7 @@ a{
 #home-img-1{
 	width:80%;
 	height:400px;
-	margin:auto;
+	font-size:1.7rem;
 }
 #about h3{
 	color:teal;
@@ -96,16 +96,16 @@ a{
 }
 #about i{
 	color:teal;
-	font-size:1.3rem;
+	font-size:1.1rem;
 	margin-right:10px;
 }
 #portfolio-h3{
 	color:teal;
-	font-size:2rem;
+	font-size:1.7rem;
 }
 #portfolio-h2{
 	color:#333 !important;
-	font-size:2rem;
+	font-size:1.5rem;
 	font-weight:300;
 	margin-bottom:10px;
 }
@@ -198,7 +198,7 @@ a{
 }
 #about-page i{
 	color:teal;
-	font-size:1.3rem;
+	font-size:1.1rem;
 	margin-right:10px;
 }
 #mission-vision-section{
@@ -519,7 +519,7 @@ a{
 }
 .footer i{
 	color:teal;
-	font-size:1.3rem;
+	font-size:1.1rem;
 	margin-right:10px;
 }
 .footer a{
