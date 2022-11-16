@@ -1,3 +1,4 @@
+AOS.init();
 /*----------index.html backToTopBtn javascript code----------*/
 mybutton=document.getElementById("back-to-top");
 window.onscroll = function(){scrollFunction()};

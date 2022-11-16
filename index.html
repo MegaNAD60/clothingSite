@@ -8,6 +8,8 @@
 	<link href="style.css" rel="stylesheet">
 	<script src="script.js"></script>
     <title>NAD Clothing Site</title>
+	<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
 
 <body>
@@ -42,22 +44,22 @@
 
 <div class="home-page">
 	<div id="home">
-		<h1>WELCOME TO NAD CLOTHING SITE</h1>
-		<p>We provide the best and suited cloths to your satisfaction</p>
-		<p id="p2">Get your best Casual wears, Cooperate wears, Sport wears, Night gowns, shoes and lot more.</p>
-		<button id="btn"><a href="#about">KNOW MORE</a></button>
+		<h1 data-aos="zoom-in" data-aos-duration="1500">WELCOME TO NAD CLOTHING SITE</h1>
+		<p data-aos="zoom-in" data-aos-duration="1500">We provide the best and suited cloths to your satisfaction</p>
+		<p id="p2" data-aos="zoom-in" data-aos-duration="1500">Get your best Casual wears, Cooperate wears, Sport wears, Night gowns, shoes and lot more.</p>
+		<button id="btn" data-aos="zoom-in" data-aos-duration="1500"><a href="#about">KNOW MORE</a></button>
 	</div>
 	
 	<div class="container">
 		<div id="about">
 			<center><h1 id="about-h1">KNOW ABOUT US</h1></center>
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-6" data-aos="fade-right" data-aos-duration="2000">
 					<center><img src="portfolio/portfolio-6.jpg" id="home-img-1"></img></center>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6" data-aos="fade-up" data-aos-duration="2000">
 				<h3><b>About NAD Wears</b></h3>
-					<p class="about-p">NAD wears is an international entity that is saddle with our customers cloths. We offer best quality various cloths to our clients all over 
+					<p>NAD wears is an international entity that is saddle with our customers cloths. We offer best quality various cloths to our clients all over 
 					the world, which includes Casual wears, Cooperate wears, Sport wears, Beach wears, Night gowns, Shoes amongest many others. Our services are 
 					international, which means we delivers your goods at your door step.</p>
 					<li><i class="fas fa-check-double"></i>We offer services to our clients all over the world</li><br>
@@ -74,7 +76,7 @@
 				<h3 id="portfolio-h3">PORTFOLIO</h2>
 				<h2 id="portfolio-h2">CHECK OUR PORTFOLIOS</h1>
 				<div class="row">
-					<div class="col-md-4">
+					<div class="col-md-4" data-aos="fade-up" data-aos-duration="2000">
 						<div class="product-box">
 							<center>
 								<img id="home-img-2" src="portfolio/portfolio-4.jpg" class="image">
@@ -84,7 +86,7 @@
 							</center>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4" data-aos="fade-up" data-aos-duration="2000">
 						<div class="product-box">
 							<center>
 								<img id="home-img-3" src="portfolio/portfolio-5.jpg" class="image">
@@ -94,7 +96,7 @@
 							</center>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4" data-aos="fade-up" data-aos-duration="2000">
 						<div class="product-box">
 							<center>
 								<img id="home-img-4" src="portfolio/portfolio-7.jpg" class="image">
@@ -112,7 +114,7 @@
 			<center><h1 id="testimonials-h1">Testimonials</h1>
 			<p id="testimonials-p">These are what some of our customers and clients have to say about our services.</P></center>
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-6" data-aos="fade-up" data-aos-duration="2000">
 						<div class="text-box">
 							<center>
 								<img id="testimonials-img" src="portfolio/testimonials-2.jpg" class="image">
@@ -122,7 +124,7 @@
 							number one cloth shopping store.</p>
 						</div>
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-6" data-aos="fade-up" data-aos-duration="2000">
 						<div class="text-box">
 							<center>
 								<img id="testimonials-img" src="portfolio/testimonials-4.jpg" class="image">
@@ -135,7 +137,7 @@
 				</div>
 
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-6" data-aos="fade-up" data-aos-duration="2000">
 						<div class="text-box">
 							<center>
 							<img id="testimonials-img" src="portfolio/testimonials-5.jpg" class="image">
@@ -145,7 +147,7 @@
 							star cos I am so in love with their mode of operation, and quality products and services they render to we their customers.</p>
 						</div>
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-6" data-aos="fade-up" data-aos-duration="2000">
 						<div class="text-box">
 							<center>
 								<img id="testimonials-img" src="portfolio/testimonials-3.jpg" class="image">
@@ -200,6 +202,9 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 
+	<script>
+		AOS.init()
+	</script>
 
 </body>
 </html>
